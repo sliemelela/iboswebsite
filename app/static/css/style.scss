@@ -3,86 +3,128 @@
 * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
-*/
+**/
 
 /*--------------------------------------------------------------
 # Solid colour variables
 --------------------------------------------------------------*/
 $color1: #444444;
-$color2: #4154f1;
-$color3: #717ff5;
-$color4: #012970;
+$color2: #4154f1;     ///
+$color3: #717ff5;     /////
+$color4: #012970;     ////
 $color5: #fff;
-$color6: #8894f6;
-$color7: #6776f4;
-$color8: #013289;
-$color9: #5969f3;
-$color10: #f6f9ff;
-$color11: #0b198f;
-$color12: #ecf3ff;
-$color13: #eee;
-$color14: #0245bc;
-$color15: #848484;
-$color16: #2db6fa;
-$color17: #dbf3fe;
-$color18: #f68c09;
-$color19: #fde3c4;
-$color20: #08da4e;
-$color21: #cffddf;
-$color22: #e9222c;
-$color23: #fef7f8;
-$color24: #b50edf;
-$color25: #f8e4fd;
-$color26: #f51f9c;
-$color27: #feecf7;
-$color28: #bababa;
-$color29: #ccc;
+$color6: #8894f6;     /////
+$color7: #6776f4;     /////
+$color8: #013289;     ////
+$color9: #5969f3;     /////
+$color10: #f6f9ff;    //
+$color11: #0b198f;    ////
+$color12: #ecf3ff;    //////
+$color13: #eee;     
+$color14: #0245bc;    ///
+$color15: #848484;    
+$color16: #2db6fa;    // only for blue box in services
+$color17: #dbf3fe;    // only for blue box in services
+$color18: #f68c09;    // only for organe box in services
+$color19: #fde3c4;    // only for orange box in services
+$color20: #08da4e;    // only for green box in services
+$color21: #cffddf;    // only for green box in services
+$color22: #e9222c;    // only for red box in services
+$color23: #fef7f8;    // only for red box in services
+$color24: #b50edf;    // only for purple box in services
+$color25: #f8e4fd;    // only for purple box in services
+$color26: #f51f9c;    // only for pink box in services
+$color27: #feecf7;    // only for pink box in services
+$color28: #bababa;    
+$color29: #ccc;       
 $color30: #ffc107;
 $color31: #111;
-$color32: #999;
-$color33: #fafbff;
-$color34: #aaaaaa;
+$color32: #999;       
+$color34: #aaaaaa;    
 $color35: #5e5e5e;
 $color36: #ed3c0d;
 $color37: #18d26e;
-$color38: #4084fd;
+$color38: #4084fd;    ///
 $color39: #777777;
 $color40: #fafafa;
 $color41: #e6e6e6;
-$color42: #0d64fd;
+$color42: #0d64fd;    ///
 $color43: #6c757d;
 $color44: #b7b7b7;
-$color45: #013ca3;
-$color46: #a0aaf8;
-$color47: #024ed5;
+$color45: #013ca3;    ////
+$color46: #a0aaf8;    /////
+$color47: #024ed5;    ///
 $color48: #ddd;
-$color49: #5465f2;
-$color50: #0257ee;
-$color51: #d7e6ff;
-$color52: #a5c5fe;
-$color53: #e1ecff;
-$color54: #d0d4fc;
+$color49: #5465f2;    ///
+$color50: #0257ee;    ///
+$color51: #d7e6ff;    //////
+$color52: #a5c5fe;    /////
+$color53: #e1ecff;    //////
+$color54: #d0d4fc;    //////
 
 
 /*--------------------------------------------------------------
 # Transparent colour variables
 --------------------------------------------------------------*/
-$tcolor1: rgba(1, 41, 112, 0.1);
-$tcolor2: rgba(127, 137, 161, 0.25);
-$tcolor3: rgba(1, 22, 61, 0.9);
-$tcolor4: rgba(65, 84, 241, 0.4);
-$tcolor5: rgba(65, 84, 241, 0.3);
-$tcolor6: rgba(1, 41, 112, 0.08);
+$tcolor1: rgba(1, 41, 112, 0.1);      ///////
+$tcolor2: rgba(127, 137, 161, 0.25);  ///////
+$tcolor3: rgba(1, 22, 61, 0.9);       ////
+$tcolor4: rgba(65, 84, 241, 0.4);     ////////
 $tcolor7: rgba(255, 255, 255, 0.75);
-$tcolor8: rgba(1, 41, 112, 0.2);
 $tcolor9: rgba(255, 255, 255, 0.3);
-$tcolor10: rgba(1, 41, 112, 0.5);
-$tcolor11: rgba(1, 41, 112, 0.8);
-$tcolor12: rgba(1, 41, 112, 0.6);
+$tcolor10: rgba(1, 41, 112, 0.5);     ///
+$tcolor11: rgba(1, 41, 112, 0.8);     ///
+$tcolor12: rgba(1, 41, 112, 0.6);     ////
 $tcolor13: rgba(0, 0, 0, 0.1);
 
 
+/*--------------------------------------------------------------
+# Grouped blue ish variables
+--------------------------------------------------------------*/
 
+$color-group-almost-white: #f8fcf8; // old: #f6f9ff
+  $color10: $color-group-almost-white;
+
+$color-group-main: #3ba350; /// old: #0d64fd
+  $color2: $color-group-main;
+  $color14: $color-group-main;
+  $color38: $color-group-main;
+  $color42: $color-group-main;
+  $color47: $color-group-main;
+  $color50: $color-group-main;
+  $tcolor10: $color-group-main;
+  $tcolor11: $color-group-main;
+
+$color-group-dark-main: #1d4521; //// old: #012970
+  $color4: $color-group-dark-main;
+  $color8: $color-group-dark-main;
+  $color11: $color-group-dark-main;
+  $color45: $color-group-dark-main;
+  $tcolor3: $color-group-dark-main;
+  $tcolor12: $color-group-dark-main;
+
+$color-group-light-main: #abd1af; ///// old: #8894f6
+  $color3: $color-group-light-main; 
+  $color6: $color-group-light-main;
+  $color7: $color-group-light-main;
+  $color9: $color-group-light-main;
+  $color46: $color-group-light-main;
+  $color52: $color-group-light-main;
+
+$color-group-llight-main: #ebf5ed; ////// old: #ecf3ff
+  $color12: $color-group-llight-main;
+  $color51: $color-group-llight-main;
+  $color53: $color-group-llight-main;
+  $color54: $color-group-llight-main;
+
+
+
+$tcolor-group-std-shadow: rgba(5, 112, 1, 0.1); /////// old: rgba(1, 41, 112, 0.1)
+  $tcolor1: $tcolor-group-std-shadow;
+  $tcolor2: $tcolor-group-std-shadow;
+
+$tcolor-group-dark-shadow: rgba(0, 104, 0, 0.493); /////// old: rgba(65, 84, 241, 0.4)
+  $tcolor4: $tcolor-group-dark-shadow;
 
 /*--------------------------------------------------------------
 # General
@@ -623,7 +665,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     color: $color5;
     background: $color2;
-    box-shadow: 0px 5px 25px $tcolor5;
+    box-shadow: 0px 5px 25px $tcolor4;
   }
   
   .about .btn-read-more span {
@@ -648,7 +690,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   --------------------------------------------------------------*/
   .values .box {
     padding: 30px;
-    box-shadow: 0px 0 5px $tcolor6;
+    box-shadow: 0px 0 5px $tcolor1;
     text-align: center;
     transition: 0.3s;
     height: 100%;
@@ -668,7 +710,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   }
   
   .values .box:hover {
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
   }
   
   .values .box:hover img {
@@ -688,7 +730,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 100%;
     background: $color5;
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
   }
   
   .counts .count-box i {
@@ -717,7 +759,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   --------------------------------------------------------------*/
   .features .feature-box {
     padding: 24px 20px;
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
     transition: 0.3s;
     height: 100%;
   }
@@ -841,7 +883,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   # Services
   --------------------------------------------------------------*/
   .services .service-box {
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
     height: 100%;
     padding: 60px 30px;
     text-align: center;
@@ -997,7 +1039,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
     padding: 40px 20px;
     background: $color5;
     text-align: center;
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
     border-radius: 4px;
     position: relative;
     overflow: hidden;
@@ -1205,8 +1247,8 @@ $tcolor13: rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 35px;
     left: 35px;
-    border-top: 3px solid $tcolor8;
-    border-left: 3px solid $tcolor8;
+    border-top: 3px solid $tcolor1;
+    border-left: 3px solid $tcolor1;
     transition: all 0.5s ease 0s;
     z-index: 9994;
   }
@@ -1219,8 +1261,8 @@ $tcolor13: rgba(0, 0, 0, 0.1);
     position: absolute;
     bottom: 35px;
     right: 35px;
-    border-bottom: 3px solid $tcolor8;
-    border-right: 3px solid $tcolor8;
+    border-bottom: 3px solid $tcolor1;
+    border-right: 3px solid $tcolor1;
     transition: all 0.5s ease 0s;
     z-index: 9994;
   }
@@ -1323,7 +1365,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   
   .portfolio-details .portfolio-info {
     padding: 30px;
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
   }
   
   .portfolio-details .portfolio-info h3 {
@@ -1458,7 +1500,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
     text-align: center;
     border-radius: 5px;
     background: $color5;
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
     transition: 0.3s;
   }
   
@@ -1576,7 +1618,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   # Recent Blog Posts
   --------------------------------------------------------------*/
   .recent-blog-posts .post-box {
-    box-shadow: 0px 0 30px $tcolor6;
+    box-shadow: 0px 0 30px $tcolor1;
     transition: 0.3s;
     height: 100%;
     overflow: hidden;
@@ -1641,7 +1683,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   --------------------------------------------------------------*/
   .contact .info-box {
     color: $color1;
-    background: $color33;
+    background: $color10;
     padding: 30px;
   }
   
@@ -1666,7 +1708,7 @@ $tcolor13: rgba(0, 0, 0, 0.1);
   }
   
   .contact .php-email-form {
-    background: $color33;
+    background: $color10;
     padding: 30px;
     height: 100%;
   }
