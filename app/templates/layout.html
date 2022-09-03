@@ -50,7 +50,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="{{ url_for('index')}}">Home</a></li>
           <li><a class="nav-link scrollto" href="{{ url_for('about')}}">Over ons</a></li>
           <li><a href="{{ url_for('research')}}">Psychologisch onderzoek</a></li>
           <!-- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
@@ -63,7 +63,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="{{ url_for('training')}}">Training</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('index')}}#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="{{ url_for('apply')}}">Aanmelden</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -78,12 +78,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <h1 data-aos="fade-up">Het IBOS gaat verder waar de mogelijkheden van scholen stoppen</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Psychologische en educatieve begeleiding voor 
+            basis- en middelbare schoolleerlingen gericht op het behalen van betere schoolprestaties.
+            <ul>
+              <li>Wij hanteren geen wachtlijst!</li>
+              <li>Maak een afspraak voor een intakegesprek</li>
+            </ul>
+
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started</span>
+                <span>Aanmelden</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -107,9 +113,11 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Over ons</h3>
-              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
-              <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+              <h2>Het IBOS is een zelfstandig instituut voor op maat gemaakte begeleiding van kinderen en 
+              jongvolwassenen.</h2>
+              <p>U kunt bij ons terecht voor onder andere pedagogische en psychologische 
+              ondersteuning op leer- en sociaal-emotioneel gebied, psychologisch onderzoek, huiswerkbegeleiding 
+              en advies.
               </p>
               <div class="text-center text-lg-start">
                 <a href="{{ url_for('about')}}" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
