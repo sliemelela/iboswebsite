@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - FlexStart Bootstrap Template</title>
+  <title>{{ name_page }} - IBOS </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -84,9 +84,8 @@
 
     <section class="inner-page">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+        {% block main_content %}
+        {% endblock %}
       </div>
     </section>
 
@@ -94,30 +93,13 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12 text-center">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          </div>
-          <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="footer-top">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="{{ url_for('static', filename='img/logo.png') }}" alt="">
-              <span>FlexStart</span>
+              <span>IBOS</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links mt-3">
@@ -151,13 +133,13 @@
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
+            <h4>Neem contact op</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Kruidenommegang 6,1115 DN<br>
+              Duivendrecht, Noord-Holland<br>
+              Nederland <br><br>
+              <strong>Telefoonnummer:</strong> +31 20 6004295<br>
+              <strong>Email:</strong> info@ibos.nu<br>
             </p>
 
           </div>

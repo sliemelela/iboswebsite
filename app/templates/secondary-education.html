@@ -1,2 +1,8 @@
 {% extends "inner-page.html" %}
-{% set active_page = "secondary" %}
+{% set active_page, name_page = "secondary", "Middelbare school"%}
+
+{% block main_content %}
+<p>
+    Hoi! Dit is tekst over de middelbare school
+</p>
+{% endblock %}
